@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DataExtraction": {
+      "commandName": "Project",
+      "commandLineArgs": "Barclay C:\\Users\\khair\\Downloads\\LQM_TechTest_DataExtractor\\DataExtractor_Example_Input.csv"
+    }
+  }
+}
