@@ -16,12 +16,13 @@ Built using **Hexagonal Architecture** and **SOLID principles** for maintainabil
 
 ## How It Works
 1. The application accepts:
-   DataExtraction.exe <BankName> <InputFilePath>
+   DataExtraction.exe BankName InputFilePath
+
    e.g. DataExtraction.exe Barclay C:\Banks\Barclay\DataExtractor_Example_Input.csv
-2. There is parser of Bank name Barclay created in this application for testing.
-3. It automatically detects and uses the correct parser for the given bank.  
-4. The CSV file is cleaned and processed.  
-5. The output CSV is saved in the same folder with `_Output` added to the filename. 
+3. There is parser of Bank name Barclay created in this application for testing.
+4. It automatically detects and uses the correct parser for the given bank.  
+5. The CSV file is cleaned and processed.  
+6. The output CSV is saved in the same folder with `_Output` added to the filename. 
 
 ---
   
